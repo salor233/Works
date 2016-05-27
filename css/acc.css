@@ -1,0 +1,57 @@
+.wrap{
+
+}
+.accd{
+    margin: auto;
+    position: absolute;
+    top: 500px; left: 0; bottom: 0; right: 0;
+    z-index: 1;
+    /*left: 600px;*/
+    /*top: 70%;*/
+    /*bottom: auto;*/
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 200px;
+    width: 200px;
+    /*border:none;*/
+    border-radius: 50%;
+    border: 2px solid #b41b6c;
+    /* replace text with an icon */
+    overflow: hidden;
+    color: transparent;
+    /*text-indent: 100%;*/
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transition: border-color 0.3s;
+    -moz-transition: border-color 0.3s;
+    transition: all 0.3s;
+    /*background-color: #1d7db1;*/
+    /*background: linear-gradient(to right, #a3f7bf, #a3f7bf) no-repeat;*/
+    background:url(../img/Start.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.accd:hover {
+    background:url(../img/Start2.svg) no-repeat;
+    background-size: 100% 100% ;
+    color: #27323A;
+}
+/*.accd:after {*/
+    /*!* arrow icon *!*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*height: 16px;*/
+    /*width: 16px;*/
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*bottom: auto;*/
+    /*right: auto;*/
+    /*-webkit-transform: translateX(-50%) translateY(-50%);*/
+    /*-moz-transform: translateX(-50%) translateY(-50%);*/
+    /*-ms-transform: translateX(-50%) translateY(-50%);*/
+    /*-o-transform: translateX(-50%) translateY(-50%);*/
+    /*transform: translateX(-10%) translateY(-50%);*/
+    /*background: url(../img/cd-arrow.svg) no-repeat 0 0;*/
+/*}*/
