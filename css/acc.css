@@ -3,11 +3,12 @@
 }
 .accd{
     margin: auto;
+    float:left;
     position: absolute;
-    top: 500px; left: 0; bottom: 0; right: 0;
+    top: 400px; left: 900px; bottom: 0; right: 0;
     z-index: 1;
     /*left: 600px;*/
-    /*top: 70%;*/
+    top: 70%;
     /*bottom: auto;*/
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
